@@ -545,10 +545,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 5400 2950 5100
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0104
 U 1 1 5CAA86B6
 P 1050 5700
-F 0 "#PWR?" H 1050 5550 50  0001 C CNN
+F 0 "#PWR0104" H 1050 5550 50  0001 C CNN
 F 1 "+5V" H 1065 5873 50  0000 C CNN
 F 2 "" H 1050 5700 50  0001 C CNN
 F 3 "" H 1050 5700 50  0001 C CNN
@@ -558,10 +558,10 @@ $EndComp
 Wire Wire Line
 	950  5700 1050 5700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5CAB955C
 P 950 5500
-F 0 "#PWR?" H 950 5250 50  0001 C CNN
+F 0 "#PWR0105" H 950 5250 50  0001 C CNN
 F 1 "GND" V 955 5372 50  0000 R CNN
 F 2 "" H 950 5500 50  0001 C CNN
 F 3 "" H 950 5500 50  0001 C CNN
@@ -569,10 +569,10 @@ F 3 "" H 950 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0106
 U 1 1 5CAB97A0
 P 950 5600
-F 0 "#PWR?" H 950 5450 50  0001 C CNN
+F 0 "#PWR0106" H 950 5450 50  0001 C CNN
 F 1 "+3.3V" V 965 5728 50  0000 L CNN
 F 2 "" H 950 5600 50  0001 C CNN
 F 3 "" H 950 5600 50  0001 C CNN
@@ -580,10 +580,10 @@ F 3 "" H 950 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L anavi-tag-manager-rescue:R-anavi-thermometer-rescue-anavi-gas-detector-rescue R4
+L anavi-tag-manager-rescue:R-anavi-thermometer-rescue-anavi-gas-detector-rescue R5
 U 1 1 5E11289E
 P 1800 5300
-F 0 "R4" V 1700 5300 50  0000 C CNN
+F 0 "R5" V 1700 5300 50  0000 C CNN
 F 1 "4,7K" V 1800 5300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 5300 50  0001 C CNN
 F 3 "" H 1800 5300 50  0000 C CNN
@@ -597,4 +597,60 @@ Wire Wire Line
 Wire Wire Line
 	2850 5300 2850 5100
 NoConn ~ 3350 3300
+$Comp
+L Connector_Generic:Conn_01x06 SPI1
+U 1 1 5E122C25
+P 2850 2150
+F 0 "SPI1" V 2816 1762 50  0000 R CNN
+F 1 "Conn_01x06" V 2725 1762 50  0000 R CNN
+F 2 "" H 2850 2150 50  0001 C CNN
+F 3 "~" H 2850 2150 50  0001 C CNN
+	1    2850 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E122EB7
+P 3150 2550
+F 0 "#PWR0107" H 3150 2300 50  0001 C CNN
+F 1 "GND" H 3155 2377 50  0000 C CNN
+F 2 "" H 3150 2550 50  0001 C CNN
+F 3 "" H 3150 2550 50  0001 C CNN
+	1    3150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5E122F58
+P 3050 2350
+F 0 "#PWR0108" H 3050 2200 50  0001 C CNN
+F 1 "+3.3V" H 3065 2523 50  0000 C CNN
+F 2 "" H 3050 2350 50  0001 C CNN
+F 3 "" H 3050 2350 50  0001 C CNN
+	1    3050 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 2550 3150 2350
+Wire Wire Line
+	2850 3300 2850 2350
+Wire Wire Line
+	2750 2350 2750 3000
+Wire Wire Line
+	2750 3000 2950 3000
+Wire Wire Line
+	2950 3000 2950 3300
+Wire Wire Line
+	2650 2350 2650 2800
+Wire Wire Line
+	2650 2800 3050 2800
+Wire Wire Line
+	3050 2800 3050 3300
+Connection ~ 1950 5300
+Wire Wire Line
+	1950 5300 1950 2450
+Wire Wire Line
+	1950 2450 2950 2450
+Wire Wire Line
+	2950 2450 2950 2350
 $EndSCHEMATC
