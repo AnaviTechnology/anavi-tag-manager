@@ -386,13 +386,13 @@ $EndComp
 $Comp
 L anavi-tag-manager-rescue:GND-anavi-thermometer-rescue-anavi-gas-detector-rescue #PWR018
 U 1 1 59B811E0
-P 2850 5100
-F 0 "#PWR018" H 2850 4850 50  0001 C CNN
-F 1 "GND" H 2850 4950 50  0000 C CNN
-F 2 "" H 2850 5100 50  0000 C CNN
-F 3 "" H 2850 5100 50  0000 C CNN
-	1    2850 5100
-	1    0    0    -1  
+P 1550 5300
+F 0 "#PWR018" H 1550 5050 50  0001 C CNN
+F 1 "GND" H 1550 5150 50  0000 C CNN
+F 2 "" H 1550 5300 50  0000 C CNN
+F 3 "" H 1550 5300 50  0000 C CNN
+	1    1550 5300
+	0    1    1    0   
 $EndComp
 $Comp
 L anavi-tag-manager-rescue:R-anavi-thermometer-rescue-anavi-gas-detector-rescue R4
@@ -530,153 +530,6 @@ F 3 "" H 2950 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L anavi-tag-manager-rescue:LED-anavi-thermometer-rescue-anavi-gas-detector-rescue D4
-U 1 1 5CAADB24
-P 3750 2650
-F 0 "D4" H 3750 2750 50  0000 C CNN
-F 1 "LED" H 3750 2550 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 3750 2650 50  0001 C CNN
-F 3 "" H 3750 2650 50  0000 C CNN
-	1    3750 2650
-	-1   0    0    1   
-$EndComp
-$Comp
-L anavi-tag-manager-rescue:R-anavi-thermometer-rescue-anavi-gas-detector-rescue R7
-U 1 1 5CAADB2B
-P 3300 2650
-F 0 "R7" V 3380 2650 50  0000 C CNN
-F 1 "68R" V 3300 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 2650 50  0001 C CNN
-F 3 "" H 3300 2650 50  0000 C CNN
-	1    3300 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L anavi-tag-manager-rescue:GND-anavi-thermometer-rescue-anavi-gas-detector-rescue #PWR?
-U 1 1 5CAADB32
-P 4050 2650
-F 0 "#PWR?" H 4050 2400 50  0001 C CNN
-F 1 "GND" H 4050 2500 50  0000 C CNN
-F 2 "" H 4050 2650 50  0000 C CNN
-F 3 "" H 4050 2650 50  0000 C CNN
-	1    4050 2650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3450 2650 3600 2650
-Wire Wire Line
-	3900 2650 4050 2650
-$Comp
-L anavi-tag-manager-rescue:LED-anavi-thermometer-rescue-anavi-gas-detector-rescue D3
-U 1 1 5CAAEF49
-P 3750 2350
-F 0 "D3" H 3750 2450 50  0000 C CNN
-F 1 "LED" H 3750 2250 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 3750 2350 50  0001 C CNN
-F 3 "" H 3750 2350 50  0000 C CNN
-	1    3750 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L anavi-tag-manager-rescue:R-anavi-thermometer-rescue-anavi-gas-detector-rescue R6
-U 1 1 5CAAEF50
-P 3300 2350
-F 0 "R6" V 3380 2350 50  0000 C CNN
-F 1 "68R" V 3300 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 2350 50  0001 C CNN
-F 3 "" H 3300 2350 50  0000 C CNN
-	1    3300 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L anavi-tag-manager-rescue:GND-anavi-thermometer-rescue-anavi-gas-detector-rescue #PWR?
-U 1 1 5CAAEF57
-P 4050 2350
-F 0 "#PWR?" H 4050 2100 50  0001 C CNN
-F 1 "GND" H 4050 2200 50  0000 C CNN
-F 2 "" H 4050 2350 50  0000 C CNN
-F 3 "" H 4050 2350 50  0000 C CNN
-	1    4050 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3450 2350 3600 2350
-Wire Wire Line
-	3900 2350 4050 2350
-$Comp
-L anavi-tag-manager-rescue:LED-anavi-thermometer-rescue-anavi-gas-detector-rescue D2
-U 1 1 5CAB04B0
-P 3750 2050
-F 0 "D2" H 3750 2150 50  0000 C CNN
-F 1 "LED" H 3750 1950 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 3750 2050 50  0001 C CNN
-F 3 "" H 3750 2050 50  0000 C CNN
-	1    3750 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L anavi-tag-manager-rescue:R-anavi-thermometer-rescue-anavi-gas-detector-rescue R5
-U 1 1 5CAB04B7
-P 3300 2050
-F 0 "R5" V 3380 2050 50  0000 C CNN
-F 1 "68R" V 3300 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 2050 50  0001 C CNN
-F 3 "" H 3300 2050 50  0000 C CNN
-	1    3300 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L anavi-tag-manager-rescue:GND-anavi-thermometer-rescue-anavi-gas-detector-rescue #PWR?
-U 1 1 5CAB04BE
-P 4050 2050
-F 0 "#PWR?" H 4050 1800 50  0001 C CNN
-F 1 "GND" H 4050 1900 50  0000 C CNN
-F 2 "" H 4050 2050 50  0000 C CNN
-F 3 "" H 4050 2050 50  0000 C CNN
-	1    4050 2050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3450 2050 3600 2050
-Wire Wire Line
-	3900 2050 4050 2050
-Wire Wire Line
-	3050 3300 3050 2650
-Wire Wire Line
-	3050 2650 3150 2650
-Wire Wire Line
-	2950 3300 2950 2350
-Wire Wire Line
-	2950 2350 3150 2350
-Wire Wire Line
-	2850 3300 2850 2050
-Wire Wire Line
-	2850 2050 3150 2050
-$Comp
-L Connector_Generic:Conn_01x04 U5
-U 1 1 5CAB7080
-P 5550 3050
-F 0 "U5" V 5423 3230 50  0000 L CNN
-F 1 "Conn_01x04" V 5514 3230 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 3050 50  0001 C CNN
-F 3 "~" H 5550 3050 50  0001 C CNN
-	1    5550 3050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3350 3300 3350 3250
-$Comp
-L power:+5V #PWR?
-U 1 1 5CABC645
-P 5650 2850
-F 0 "#PWR?" H 5650 2700 50  0001 C CNN
-F 1 "+5V" V 5665 2978 50  0000 L CNN
-F 2 "" H 5650 2850 50  0001 C CNN
-F 3 "" H 5650 2850 50  0001 C CNN
-	1    5650 2850
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 U6
 U 1 1 5CABCF1E
 P 750 5600
@@ -726,58 +579,22 @@ F 3 "" H 950 5600 50  0001 C CNN
 	1    950  5600
 	0    1    1    0   
 $EndComp
-NoConn ~ 5450 2850
 $Comp
-L power:GND #PWR?
-U 1 1 5CAC01B2
-P 5550 2850
-F 0 "#PWR?" H 5550 2600 50  0001 C CNN
-F 1 "GND" H 5555 2677 50  0000 C CNN
-F 2 "" H 5550 2850 50  0001 C CNN
-F 3 "" H 5550 2850 50  0001 C CNN
-	1    5550 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5CB2C30F
-P 4900 3000
-F 0 "R8" H 4970 3046 50  0000 L CNN
-F 1 "220K" H 4970 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 3000 50  0001 C CNN
-F 3 "~" H 4900 3000 50  0001 C CNN
-	1    4900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5CB2C3AE
-P 4900 3550
-F 0 "R9" H 4970 3596 50  0000 L CNN
-F 1 "56K" H 4970 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 3550 50  0001 C CNN
-F 3 "~" H 4900 3550 50  0001 C CNN
-	1    4900 3550
-	1    0    0    -1  
+L anavi-tag-manager-rescue:R-anavi-thermometer-rescue-anavi-gas-detector-rescue R4
+U 1 1 5E11289E
+P 1800 5300
+F 0 "R4" V 1700 5300 50  0000 C CNN
+F 1 "4,7K" V 1800 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 5300 50  0001 C CNN
+F 3 "" H 1800 5300 50  0000 C CNN
+	1    1800 5300
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 3250 4900 3250
+	1550 5300 1650 5300
 Wire Wire Line
-	4900 3250 4900 3150
-$Comp
-L power:GND #PWR?
-U 1 1 5CB3046F
-P 4900 3700
-F 0 "#PWR?" H 4900 3450 50  0001 C CNN
-F 1 "GND" H 4905 3527 50  0000 C CNN
-F 2 "" H 4900 3700 50  0001 C CNN
-F 3 "" H 4900 3700 50  0001 C CNN
-	1    4900 3700
-	1    0    0    -1  
-$EndComp
+	1950 5300 2850 5300
 Wire Wire Line
-	4900 2850 5350 2850
-Wire Wire Line
-	4900 3400 4900 3250
-Connection ~ 4900 3250
+	2850 5300 2850 5100
+NoConn ~ 3350 3300
 $EndSCHEMATC
