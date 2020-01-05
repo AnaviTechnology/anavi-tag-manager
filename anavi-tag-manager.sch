@@ -603,7 +603,7 @@ U 1 1 5E122C25
 P 2850 2150
 F 0 "SPI1" V 2816 1762 50  0000 R CNN
 F 1 "Conn_01x06" V 2725 1762 50  0000 R CNN
-F 2 "" H 2850 2150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2850 2150 50  0001 C CNN
 F 3 "~" H 2850 2150 50  0001 C CNN
 	1    2850 2150
 	0    -1   -1   0   
@@ -653,4 +653,29 @@ Wire Wire Line
 	1950 2450 2950 2450
 Wire Wire Line
 	2950 2450 2950 2350
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E1230CA
+P 2750 950
+F 0 "J2" V 2716 762 50  0000 R CNN
+F 1 "Conn_01x02" V 2625 762 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2750 950 50  0001 C CNN
+F 3 "~" H 2750 950 50  0001 C CNN
+	1    2750 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E125232
+P 2850 1150
+F 0 "#PWR0109" H 2850 900 50  0001 C CNN
+F 1 "GND" H 2855 977 50  0000 C CNN
+F 2 "" H 2850 1150 50  0001 C CNN
+F 3 "" H 2850 1150 50  0001 C CNN
+	1    2850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1650 2750 1150
+Connection ~ 2750 1650
 $EndSCHEMATC
