@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 29)
+    (drawings 30)
     (tracks 212)
     (zones 0)
-    (modules 26)
+    (modules 27)
     (nets 16)
   )
 
@@ -158,6 +158,19 @@
     (via_drill 0.4)
     (uvia_dia 0.35)
     (uvia_drill 0.1)
+  )
+
+  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+    (at 106.9 95.7)
+    (fp_text reference "" (at 121.8 81) (layer F.SilkS)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value "" (at 121.8 81) (layer F.SilkS)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text user 4,7K (at 137.0125 92.325001) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
   )
 
   (module "" (layer F.Cu) (tedit 0) (tstamp 0)
@@ -815,7 +828,7 @@
     )
   )
 
-  (module Package_TO_SOT_SMD:SOT-223 (layer F.Cu) (tedit 5E11E564) (tstamp 5BA4976F)
+  (module Package_TO_SOT_SMD:SOT-223 (layer F.Cu) (tedit 5E11E564) (tstamp 5E284414)
     (at 73.5 88.5 270)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
@@ -890,7 +903,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5E121B78) (tstamp 5E1303AD)
+  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5E4F03CB) (tstamp 5E1303AD)
     (at 100.25 97.25 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -899,7 +912,7 @@
     (fp_text reference R5 (at 0.25 -1.5 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
-    (fp_text value 4,7K (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 2K (at 0 1.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -1010,7 +1023,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5E121B80) (tstamp 5E130553)
+  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5E121B80) (tstamp 5E284557)
     (at 108.2125 97.255001 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1090,6 +1103,9 @@
     )
   )
 
+  (gr_text ESP-12E (at 87.7 82.4) (layer F.Fab)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text GND (at 66.9 88.1) (layer F.SilkS) (tstamp 5E1319B6)
     (effects (font (size 1 1) (thickness 0.15)))
   )
